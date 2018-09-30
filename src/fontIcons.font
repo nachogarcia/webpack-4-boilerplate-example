@@ -1,0 +1,13 @@
+module.exports = {
+  "files": [
+    "static/svg/fontIcon/*.svg"
+  ],
+  "fontName": "fontIcons",
+  "classPrefix": "icon-",
+  "baseClass": "icon",
+  'baseSelector': '.icon',
+  'fixedWidth': true,
+  "types": ["eot", "woff", "ttf", "svg"],
+  'fileName': 'fonts/[fontname].[ext]',
+  'dest': 'foo'
+}
